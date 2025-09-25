@@ -1,0 +1,44 @@
+{
+    "labels": [
+        "ORGANIZACAO",
+        "VALOR",
+        "TEMPO",
+        "LOCAL",
+        "PESSOA"
+    ],
+
+    "label_descriptions": {
+        "ORGANIZACAO": "Abrange nomes de instituições, corporações, governos ou outras organizações formais.",
+        "VALOR": "Envolve quantidades numéricas que representam medidas, incluindo dinheiro, porcentagens, distâncias, peso, etc.",
+        "TEMPO": "Inclui menções a datas, períodos históricos, estações do ano, ou unidades de tempo específicas.",
+        "LOCAL": "Engloba nomes de lugares geográficos, como cidades, países, continentes, pontos turísticos, etc.",
+        "PESSOA": "Refere-se a nomes próprios de indivíduos, como pessoas reais ou fictícias."
+    },
+
+    "label2idx": {
+        "O": 0,
+        "B-ORGANIZACAO": 1,
+        "I-ORGANIZACAO": 2,
+        "B-VALOR": 3,
+        "I-VALOR": 4,
+        "B-TEMPO": 5,
+        "I-TEMPO": 6,
+        "B-LOCAL": 7,
+        "I-LOCAL": 8,
+        "B-PESSOA": 9,
+        "I-PESSOA": 10
+    },
+    "idx2label": {
+        "0": "O",
+        "1": "B-ORGANIZACAO",
+        "2": "I-ORGANIZACAO",
+        "3": "B-VALOR",
+        "4": "I-VALOR",
+        "5": "B-TEMPO",
+        "6": "I-TEMPO",
+        "7": "B-LOCAL",
+        "8": "I-LOCAL",
+        "9": "B-PESSOA",
+        "10": "I-PESSOA"
+    }
+}
