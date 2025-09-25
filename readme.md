@@ -1,6 +1,6 @@
-# NER LLM Ensembling
+# Local LLM NER Ensembling
 
-This is the repo for the paper titled "Local LLM Ensembles for Portuguese Named Entity Recognition".
+This is the repo for the paper titled "Local LLM Ensembles for Zero-shot Portuguese Named Entity Recognition" approved for CIARP 2025.
 
 VLLM is used as the backend for running the LLMs.
 
